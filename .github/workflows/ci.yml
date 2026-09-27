@@ -1,0 +1,17 @@
+name: My first CI pipeline
+
+on:
+  push:
+      branches:
+          - main
+
+jobs: 
+
+  first-job:
+
+      runs-on: windows-latest
+
+      steps:
+
+          -name: Start pipline
+          run: echo "CI pipline has started"
