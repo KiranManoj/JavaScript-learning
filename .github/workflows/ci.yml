@@ -13,5 +13,5 @@ jobs:
 
       steps:
 
-          -name: Start pipline
-          run: echo "CI pipline has started"
+          - name: Start pipline
+            run: echo "CI pipline has started"
